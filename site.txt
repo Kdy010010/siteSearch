@@ -1,0 +1,50 @@
+github,github.com
+youtube,youtube.com
+coding,coding.com
+stackoverflow,stackoverflow.com
+wikipedia,wikipedia.org
+example,example.com
+opensource,opensource.org
+reddit,reddit.com
+mozilla,mozilla.org
+bilibili,bilibili.com
+namu,namu.wiki
+wiki,wikipedia.org
+gitter,gitter.im
+gpt,gpt.fyi
+twitter,twitter.com
+facebook,facebook.com
+instagram,instagram.com
+linkedin,linkedin.com
+netflix,netflix.com
+amazon,amazon.com
+ebay,ebay.com
+spotify,spotify.com
+apple,apple.com
+google,google.com
+twitch,twitch.tv
+discord,discord.com
+snapchat,snapchat.com
+whatsapp,whatsapp.com
+pinterest,pinterest.com
+telegram,telegram.org
+quora,quora.com
+medium,medium.com
+google apps,apps.google.com
+ms apps,office.com
+amazon apps,aws.amazon.com
+duckduckgo,duckduckgo.com
+google play store,play.google.com
+zeon.dev,zeon.dev
+pluto.zeon.dev,pluto.zeon.dev
+dark web,darkweb.com
+samsung,samsung.com
+lg,lge.com
+skt,skt.com
+u+,uplus.co.kr
+kakao,kakao.com
+naver,naver.com
+discord developers, discord.com/developers
+soundcloud, soundcloud.com
+ebay, ebay.com
+aliexpress, aliexpress.com
