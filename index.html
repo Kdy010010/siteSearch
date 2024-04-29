@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Search</title>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        #searchResults {
+            list-style-type: none;
+        }
+        
+        #searchResults li {
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        #searchResults li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Site Search</h1>
+        <input type="text" id="searchInput" placeholder="Enter your search query">
+        <button onclick="search()">Search</button>
+        <ul id="searchResults"></ul>
+    </div>
+
+    <script>
+        function search() {
+            var searchTerm = document.getElementById("searchInput").value.toLowerCase();
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var lines = this.responseText.split('\n');
+                    var searchResults = document.getElementById("searchResults");
+                    searchResults.innerHTML = "";
+
+                    lines.forEach(function(line) {
+                        var parts = line.split(',');
+                        var keyword = parts[0].trim().toLowerCase();
+                        var link = parts[1].trim();
+
+                        if (keyword.indexOf(searchTerm) !== -1) {
+                            var li = document.createElement("li");
+                            var a = document.createElement("a");
+                            a.href = link;
+                            a.textContent = keyword;
+                            a.target = "_blank";
+                            li.appendChild(a);
+                            searchResults.appendChild(li);
+                        }
+                    });
+                }
+            };
+            xmlhttp.open("GET", "site.txt", true);
+            xmlhttp.send();
+        }
+    </script>
+</body>
+</html>
