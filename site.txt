@@ -1,50 +1,50 @@
-github,github.com
-youtube,youtube.com
-coding,coding.com
-stackoverflow,stackoverflow.com
-wikipedia,wikipedia.org
-example,example.com
-opensource,opensource.org
-reddit,reddit.com
-mozilla,mozilla.org
-bilibili,bilibili.com
-namu,namu.wiki
-wiki,wikipedia.org
-gitter,gitter.im
-gpt,gpt.fyi
-twitter,twitter.com
-facebook,facebook.com
-instagram,instagram.com
-linkedin,linkedin.com
-netflix,netflix.com
-amazon,amazon.com
-ebay,ebay.com
-spotify,spotify.com
-apple,apple.com
-google,google.com
-twitch,twitch.tv
-discord,discord.com
-snapchat,snapchat.com
-whatsapp,whatsapp.com
-pinterest,pinterest.com
-telegram,telegram.org
-quora,quora.com
-medium,medium.com
-google apps,apps.google.com
-ms apps,office.com
-amazon apps,aws.amazon.com
-duckduckgo,duckduckgo.com
-google play store,play.google.com
-zeon.dev,zeon.dev
-pluto.zeon.dev,pluto.zeon.dev
-dark web,darkweb.com
-samsung,samsung.com
-lg,lge.com
-skt,skt.com
-u+,uplus.co.kr
-kakao,kakao.com
-naver,naver.com
-discord developers, discord.com/developers
-soundcloud, soundcloud.com
-ebay, ebay.com
-aliexpress, aliexpress.com
+github,https://github.com
+youtube,https://youtube.com
+coding,https://coding.com
+stackoverflow,https://stackoverflow.com
+wikipedia,https://wikipedia.org
+example,https://example.com
+opensource,https://opensource.org
+reddit,https://reddit.com
+mozilla,https://mozilla.org
+bilibili,https://bilibili.com
+namu,https://namu.wiki
+wiki,https://wikipedia.org
+gitter,https://gitter.im
+gpt,https://gpt.fyi
+twitter,https://twitter.com
+facebook,https://facebook.com
+instagram,https://instagram.com
+linkedin,https://linkedin.com
+netflix,https://netflix.com
+amazon,https://amazon.com
+ebay,https://ebay.com
+spotify,https://spotify.com
+apple,https://apple.com
+google,https://google.com
+twitch,https://twitch.tv
+discord,https://discord.com
+snapchat,https://snapchat.com
+whatsapp,https://whatsapp.com
+pinterest,https://pinterest.com
+telegram,https://telegram.org
+quora,https://quora.com
+medium,https://medium.com
+google apps,https://apps.google.com
+ms apps,https://office.com
+amazon apps,https://aws.amazon.com
+duckduckgo,https://duckduckgo.com
+google play store,https://play.google.com
+zeon.dev,https://zeon.dev
+pluto.zeon.dev,https://pluto.zeon.dev
+dark web,https://darkweb.com
+samsung,https://samsung.com
+lg,https://lge.com
+skt,https://skt.com
+u+,https://uplus.co.kr
+kakao,https://kakao.com
+naver,https://naver.com
+discord developers,https://discord.com/developers
+soundcloud,https://soundcloud.com
+ebay,https://ebay.com
+aliexpress,https://aliexpress.com
